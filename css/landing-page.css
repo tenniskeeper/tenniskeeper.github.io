@@ -30,9 +30,36 @@ h6 {
     font-weight: 400;
 }
 
+.social-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #2e6aa3;
+    background-size: cover;
+}
+
+.social-content-section {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.content-section-black {
+    padding: 50px 0;
+    background-color: #333; 
+}
+
+.content-section-yellow {
+    padding: 50px 0;
+    background-color: #FFB636; 
+}
+
+.content-section-lightblue {
+    padding: 50px 0;
+    background-color: #2DC9D7;
+}
+
 .tutorial-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
     background-color: #FA751C;
