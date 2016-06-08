@@ -58,11 +58,46 @@ h6 {
     background-color: #2DC9D7;
 }
 
+.support-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    background-color: #e4f1fe; 
+    background-size: cover;
+}
+
+.faq-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    background-color: #e4f1fe;
+    background-size: cover;
+}
+
+.faq-header h4 {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+   
+}
+
+.faq-header p1 {
+    margin-bottom:  10px;
+    margin-left:    5px;
+    margin-right:   5px;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
+
+.faq-header ul, ol, li {
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 .tutorial-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     text-align: center;
     color: #f8f8f8;
-    background-color: #FA751C;
+    /* background-color: #FA751C; */
+     background-color: #FFB636; 
     background-size: cover;
 }
 
@@ -149,6 +184,8 @@ h6 {
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
+
+
 
 .banner {
     padding: 100px 0;
