@@ -38,6 +38,12 @@ h6 {
     background-size: cover;
 }
 
+.privacy-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    color: #f8f8f8;
+    background-color: #2e6aa3;
+    background-size: cover;
+}
 .social-content-section {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
