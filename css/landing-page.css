@@ -32,7 +32,7 @@ h6 {
 
 .social-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    text-align: center;
+    /*text-align: center;*/
     color: #f8f8f8;
     background-color: #2e6aa3;
     background-size: cover;
