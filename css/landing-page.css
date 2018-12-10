@@ -71,7 +71,7 @@ h6 {
 }
 
 .faq-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     background-color: #e4f1fe;
     background-size: cover;
 }
