@@ -54,7 +54,8 @@ h6 {
 }
 
 .social-content-section {
-    padding: 50px 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
     /*border-top: 1px solid #e7e7e7;*/
 }
 
@@ -333,4 +334,12 @@ footer {
 
 p.copyright {
     margin: 10px 0 0;
+}
+
+
+p.normal {
+  //margin-bottom: 20px;
+  font-size: 16px;
+  //font-weight: 300;
+  //line-height: 1.4;
 }
