@@ -1,93 +1,61 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="TennisKeeper - Trouble Shooting Apple Watch and iPhone problems">
-    <meta name="author" content="TennisKeeper">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Swing Analyzer">
+  <meta name="author" content="TennisKeeper">
 
-    <title>Swing Analyzer Trouble Shooting</title>
+  <title>Swing Analyzer</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="../css/landing-page.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-    document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1818646285042896');
-    fbq('track', 'PageView');
-    fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1818646285042896&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- DO NOT MODIFY -->
-    <!-- End Facebook Pixel Code -->
+  <link href="../css/new-age.css" rel="stylesheet">
 
 </head>
 
-    <body>
-    
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-           
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../index.html">
-                    <img alt="TennisKeeper" src="../img/logo.png">
-                </a>
-            </div>
-            
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                   <li>
-                        <a href="../reviews.html">Reviews</a>
-                    </li>
-                    <li>
-                        <a href="../watch.html">Apple Watch</a>
-                    </li>
-                    <li>
-                        <a href="../movement.html">Tennis Movement</a>
-                    </li>
-                    <li>
-                        <a href="../team.html">Tennis Teams</a>
-                    </li>
-                    <li>
-                        <a href="../support.html">Help</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="header-spaces"></div>
-    
-    <div class="faq-header">
-        
-        <div class="container">
-            <div class="row">   
-                <div class="col-sm-12">
-                        <h3>Swing Analyzer Trouble Shooting</h3>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="../index.html">
+       <img alt="TennisKeeper" src="../img/logo.png"></a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://medium.com/tenniskeeper?utm_source=blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../support.html">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="features" id="features">
+    <div class="container">
+      <h3>Swing Analyzer Trouble Shooting</h3>
 
                         <p class="lead">If you are not seeing your swing statistics such as swing speed, please try completing the troubleshooting steps below in the order presented.</p>
 
@@ -98,38 +66,48 @@
                             <li>Open TennisKeeper app on your iPhone and go to your Profile.
                             <li>Make sure Swing Analyzer Subscription Type is set to either Annual or Monthly, and it has not expired.
                             <li>If the date has expired, please renew your Subscription.
-                            <li>If the date is not correct, please go to <b>Get Swing Analyzer</b> > <b>Restore Purchases</b> to reset it.
+                            <li>If the date is not correct, please go to <i>Get Swing Analyzer</i> > <i>Restore Purchases</i> to reset it.
                             </ol>
+                            <br>
                             <img class="img-responsive" src="sa_profile.png" width="350" alt="Swing Analyzer Subscription">
-                        
+                        </p>
                         <br>
+                 
+
                         <h3>Step 2</h3>
                         <p class="lead">Check your Account status on your Apple Watch.</p>
 
                             <ol class="lead">
-                            <li>Go to TennisKeeper app <b>Start</b> screen. At the bottom of the screen, your account status should say either
-                                <b>Swing (Monthly)</b> or <b>Swing (Annual)</b>.
+                            <li>Go to TennisKeeper app <i>Start</i> screen. At the bottom of the screen, your account status should say either <i>Swing (Monthly)</i> or <i>Swing (Annual)</i>.
 
-                       
-                                 <img class="img-responsive" src="sa_watch.png" width="350" alt="Swing Analyzer Subscription">
+                            <br>
+                            <img class="img-responsive" src="sa_watch.png" width="300" alt="Swing Analyzer Subscription">
 
                             <li>If it is not set correctly, please make sure you have a valid subscription. 
                             If you have a valid subscription, go to your Profile and tap the <i>Send Account status to Apple Watch</i> button to make sure your Apple Watch recognize it.
                             </ol>
 
-                            <p class="lead"><b>Note: This label must show Swing (Monthly) or Swing (Annual) before each swing shot detail get save to iCloud for analysis. In other words, any sessions that you saved before you subscribe to Swing Analyzer will not have any swing details.
+                            <p class="lead">
+                              <b>Note: This label must show Swing (Monthly) or Swing (Annual) before each swing shot detail get save to iCloud for analysis. In other words, any sessions that you saved before you subscribe to Swing Analyzer will not have any swing details.
+                              </b>
                             </p>
                             
+                 
                         <br>
                         <h3>Step 3<h3>
-                        <p class="lead">
+                     
                             <ol class="lead">
+                            
                             <li>Make sure your iPhone is connected to your Apple Watch. You can validate if the phone is connected to your Apple Watch by testing the connection on the Apple Watch from the Control Centre and hearing a clear ping sound. 
                             See the <a href="https://support.apple.com/en-ca/HT205025">Apple Support link</a> for more instructions.
+                            </li>
                            
-                            <li>In particular, you should never see the Disconnect <img src="watch-disconnected-icon.png" width="25"> icon.
+                            <li>In particular, you should never see the Disconnect <img src="watch-disconnected-icon.png" width="15"> icon.
                                 If you see this icon, it means your Apple Watch cannot reach your iPhone and it does not matter how close they are. Please follow the instructions above and check Airplane Mode, Wifi, Bluetooth etc.
                             </ol>
+                      
+                        
+                        <br>
 
                         <h3>Step 4</h3>
                             <p class="lead">
@@ -143,42 +121,49 @@
                             </ol>
                         </p>
 
+          
+                        <br>
                             
                         <h3>Step 5</h3>
                             <p class="lead">Check your iCloud Connection.</p>
                             <ol class="lead">
-                            <li>Make sure you are <a href="http://www.tenniskeeperapp.com/support/icloud.html">enabled to iCloud</a> and iCloud access 
-                                is allowed if you use cellular data.
-                            <li>You can validate you have good iCloud connection if you can see other TennisKeeper users activities.
-                            <li>Go to <b>TennisKeeper</b> > <b>Discover</b> > <b>Community</b>. If you see other users out there playing today, it indicates that Apple iCloud is working and you can connect to it.
+                            <li>Make sure you are <a href="icloud.html">enabled to iCloud</a> and iCloud access is allowed if you use cellular data.
+
+                            <li>Validate you have good iCloud connection:
+                            Go to <i>TennisKeeper</i> > <i>Discover</i> > <i>Leaderboard</i>. If you see other users out there playing today, it indicates that Apple iCloud is working and you can connect to it.
                             </ol>
 
+                        <br>
                     
                         <h3>Step 6</h3>
-                        <p class="lead">Enable Notifications. 
+                        <p class="lead">Enable Notifications.</p>
                         <ol class="lead">
-                        <li>Go to <b>TennisKeeper</b> > <b>More</b> > <b>Notifications</b>.
+                        <li>Go to <i>TennisKeeper</i> > <i>More</i> > <i>Notifications</i>.
                         <li>Allow TennisKepper access to Notifications.
                         </ol> 
+                        
                         <p class="lead">If TennisKeeper cannot save your swings to iCloud, it will send you a notification. This will help
                         you identify what connection problems you are having. For example:
+                        <br>
+                        <br>
                         <img class="img-responsive" src="sa_error.png" width="350" alt="Swing Analyzer Notifications">
-                        
+                        <br>
                         You can find the notifications on your Apple Watch Notification Center.
                         </p>
 
-
+                        <br>
                         <br/>
-                            <h3>Step 6</h3>
+
+                        <h3>Step 7</h3>
                             <p class="lead">Start your session. When you finished, save your session.   
-                            After you saved your session, open the app on your iPhone. Go to the <b>Metrics</b> view. You should be
+                            After you saved your session, open the app on your iPhone. Go to the <i>Metrics</i> view. You should be
                             able to see your swing details and swing speed.
 
                             </p>   
                             <img class="img-responsive" src="sa_speed.png" width="350" alt="Swing Analyzer Subscription">
                             
                         <br/>
-
+                        <br/>
                        
                         <h3>Restart, Reinstall, Repair</h3>
                             <p class="lead">If you have validated the above steps and it is still not working, try these steps:</p>
@@ -193,52 +178,38 @@
                             They must be able to connect at all times for each swing shot to save to iCloud directly from your Apple Watch.
                             </p>
 
-                    </div>
-                </div>
-            </div>
-       
     </div>
+  </section>
 
-     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="../index.html">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="https://itunes.apple.com/us/app/tenniskeeper/id1097388824">Get the App</a>
-                        </li>
-                        
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                           <a href="../support.html">Help</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="../privacy.html">Privacy</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="mailto:tenniskeeper@gmail.com">Contact</a>
-                        </li>
-                    </ul>
-                    
-                    <p class="copyright text-muted small">Copyright &copy; TennisKeeper 2018. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <footer>
+    <div class="container">
+      <p>&copy; TennisKeeper 2019. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="../privacy.html">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="../terms.html">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="../support.html">Support</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="../js/jquery.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
 
-    <script>
+  <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -247,7 +218,8 @@
         ga('create', 'UA-77656435-1', 'auto');
         ga('send', 'pageview');
 
-    </script>
-    
-    </body>
+  </script>
+  
+</body>
+
 </html>

@@ -3,43 +3,38 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Track your tennis activities, matches, scores, swings, footwork and teams. Use your Apple Watch as a tennis tracker.">
-   
-    <meta name="apple-itunes-app" content="app-id=1097388824"/>
-    <title>TennisKeeper - Tennis Activity Tracker</title>
-    <link rel="icon" href="img/tk_favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Track your Tennis, Padel, Squash, Racquetball, Pickelball and Badminton activities. Turn your Apple Watch into a swing sensor.">
+  <meta name="author" content="TennisKeeper">
 
-    <meta property="og:url"                content="http://www.tenniskeeperapp.com/" />
-    <meta property="og:type"               content="website" /> 
-    <meta property="og:title"              content="TennisKeeper - Tennis Activity Tracker" />
-    <meta property="og:description"        content="Track your tennis activities. Make every tennis day amazing and memorable." />
-    <meta property="og:image"              content="http://www.tenniskeeperapp.com/fb/singles-200.png" />
-    <meta property="fb:app_id"             content="299858983712661" />
+  <meta name="apple-itunes-app" content="app-id=1097388824"/>
+  <title>TennisKeeper - Swings and Scores Tracker</title>
+  <link rel="icon" href="img/tk_favicon.png">
 
-     <!-- Pinterest -->
-    <meta name="p:domain_verify" content="8585191151ff45d6b4867b8508b04338" />
+  <meta property="og:url"                content="http://www.tenniskeeperapp.com/" />
+  <meta property="og:type"               content="website" /> 
+  <meta property="og:title"              content="TennisKeeper - Tennis Activity Tracker" />
+  <meta property="og:description"        content="Track your tennis activities. Make every tennis day amazing and memorable." />
+  <meta property="og:image"              content="http://www.tenniskeeperapp.com/fb/singles-200.png" />
+  <meta property="fb:app_id"             content="299858983712661" />
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Pinterest -->
+  <meta name="p:domain_verify" content="8585191151ff45d6b4867b8508b04338" />
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link href="css/new-age.css" rel="stylesheet">
 
-    <!-- Facebook Pixel Code -->
+  <!-- Facebook Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -54,583 +49,335 @@
     src="https://www.facebook.com/tr?id=1818646285042896&ev=PageView&noscript=1"
     /></noscript>
     <!-- DO NOT MODIFY -->
-    <!-- End Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
 
-    
 </head>
 
-<body>
-    <script src="js/fbweb.js"></script>
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img alt="TennisKeeper" src="img/logo.png">
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="reviews.html">Reviews</a>
-                    </li>
-                    <li>
-                        <a href="watch.html">Apple Watch</a>
-                    </li>
-                    <li>
-                        <a href="stickers.html">iMessage Stickers</a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/tenniskeeper?utm_source=blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="support.html">Help</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<body id="page-top">
+  <script src="js/fbweb.js"></script>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">
+       <img alt="TennisKeeper" src="img/logo.png"></a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://medium.com/tenniskeeper?utm_source=blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="support.html">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="masthead">
+
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-4 my-auto">
+
+          <div class="header-content mx-auto">
+            <h2 class="mb-5">Turn your Apple Watch into a Swing Sensor.
+              <br>
+              <br>
+              Track your favorite racquet sports activities.
+            </h1> 
+          </div>
+          
+          <div class="badges">
+            <a class="badge-link" href="http://apple.co/2b0cmr9">
+              <img src="img/app-store-badge.svg" width="200" alt="tenniskeeper"></a>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-
-    <!-- Header -->
-    <a name="about"></a>
-    
-    <div class="intro-header">
         
-        <div class="container">
-
-            <div class="row" align="right" >
-                <ul class="list-inline list-social">
-                            
-                    <li class="social-facebook">
-                        <a href="https://www.facebook.com/tenniskeeper/"><i class="fa fa-facebook-square fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/tennis_keeper"><i class="fa fa-twitter fa-fw"></i></a>
-                    </li>  
-                    <li>
-                        <a href="https://www.instagram.com/tenniskeeperapp/" class1="btn btn-default"><i class="fa fa-instagram fa-fw"></i> </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="intro-message">
-                        <h1>Make every tennis day memorable</h1>
-                        <h3>Have fun, enjoy your Tennis</h3>
-                        <br>
-                       
-                        <a class="badge-link" href="http://apple.co/2b0cmr9" title="TennisKeeper" target="_blank" id="download">
-                                <img src="img/appstore-logo.png" width="200" alt="tenniskeeper"/></a>
-                    </div>
-                 </div>   
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/headerMain.png" alt="">
-                </div>
-                
-            </div>
-
+        <div class="col-lg-8 my-auto">
+          <img src="img/headerMain.png" class="img-fluid" alt="">
         </div>
-        <!-- /.container -->
-
+      
+      </div>
     </div>
-    <!-- /.intro-header -->
+  </header>
 
-    <!-- Page Content -->
 
-	<a  name="services"></a>
-
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-              
-                    <h2 class="section-heading">Track all Your<br>Tennis Activities</h2>
-                    <p class="lead"> 
-                        Tennis tracking is more than just tracking your match scores.
-                        Track your hitting practices, tennis lessons, 
-                        <a href="support/applewatch.html">swing shots</a>, court conditions, cross training activities, 
-                        <a href="movement.html">movement on the court</a>, tournaments,
-                        how you play and how you feel. 
-                        
-                        <br><br>
-                       
-                        
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/track_tennis.png" width="400" alt="Best Tennis App"> 
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <div class="content-section-b">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                   
-                    <h2 class="section-heading">Analyze Your<br>Opponent's Game</h2>
-                    <p class="lead"> 
-                        Want to take your game to a new level? Start developing a game plan against your opponents. <br><br>
-                        Easy to use templates make it fast and fun to enter your opponent's strength, weakness and line calls tendency 
-                        right after you play them.
-                        Next time you have to play them again, their game style will be at your fingertips.
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                
-                    <img class="img-responsive" src="img/opponents.png" width="400" alt="Tennis Workout App">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row"> 
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    
-                    <h2 class="section-heading">Watch and Track Live Match</h2>
-                    <p class="lead">
-                    Parents, coaches and teams can use <a href="livematch/pointbypoint.html">Live Match Point by Point tracking 
-                    </a> to record their kids, students or teammates actions 
-                    from the sidelines. Keep track of each point details and analyze the match stats to identify areas for improvement. 
-                    <br>
-                    <br>Tennis fans can record the tennis matches they are watching.
-                    </p>
-                </div>
-                  
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/track_livematch.png" alt="Tennis Live Match">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row"> 
-                <div class="col-lg-5 col-sm-6">
-                    
-                    <h2 class="section-heading">See Your Progress</h2>
-                    <p class="lead">Interactive dashboard provides summary by week, month or year your time spent on all your activities. See how much time you spent playing singles or doubles matches vs practices or lessons.
-                    <br/><br/>
-                    Your tennis activity is added to your Apple Health as a <i>Workout</i> so that you can get the credit towards your fitness goals in your Activity app.
-
-                    </p>
-                </div>
-                  
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/dashboard.png" alt="Tennis Fitness App">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container"> 
         
-                    <h2 class="section-heading">Your Match History</h2>
-                    <p class="lead">
-                        Do you know how many matches you played? What is your record against certain opponent? Have you improved over time? Unless you are on the professional circuit, these are impossible questions to answer until now.
-                        <br><br>
-                        Get your win, loss stats for <i>matches</i>, <i>sets</i> and <i>games</i> by 
-                        <i>week</i>, <i>month</i> or <i>year</i>. 
-                        Export all your tennis data to a .csv file for further analysis.
+        <div class="row">
+          <div class="col-lg-6">
+              <div class="feature-item">
+                <h3>Simple yet Powerful</h3>
+                      <p class="text-muted">
+                        Start, pause and save your Tennis, Padel, Pickelball, Squash, Racquetball or
+                        Badminton activity directly from your Apple Watch.
+                      </p>
                 </div>
-
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/stats.png" alt="Tennis statistics">
-                </div>
-            </div>
-
+          </div>
+          <div class="col-lg-5">
+            <img class="img-responsive" src="img/watch_start.png" height="400" alt="Apple Watch Tennis App">
+          </div>
         </div>
-        <!-- /.container -->
 
+        <div class="row">
+          <div class="col-sm-6">           
+            <img class="img-responsive" src="img/watch_swings.png" height="400" alt="Tennis Strokes">
+          </div>
+
+          <div class="col-sm-6">
+            <div class="feature-item">
+                <h3>Swing and Cardio</h3>
+                <p class="text-muted">Detect your forehand, backhand, smash and volleys. Get your steps count, distance covered, heart rate and calories burned while you are playing.
+                </p>
+            </div>
+          </div>
+        </div>
+        
+      
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="feature-item">
+              <h3>Analyze Your Swings</h3>
+                <p class="text-muted">
+                  Learn the science behind your swing motion. See your swing path, angles, speed and contact point. 
+                  Visualize every swing in 3D and get to know your motion like never before. 
+                <br>
+                <br>      
+                Discover your longest rally, average shots per min, your best shot and many more.
+                </p>
+            </div>
+          </div>  
+         
+          <div class="col-sm-6">       
+            <img class="img-responsive" src="img/watch_swing_an.png" height="400" alt="Swing Science">  
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="content-section-b">
 
-        <div class="container">
+    <div class="overlay"></div>
+  </section>
 
+  <section class="cta" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Track and Improve</h2>
+        <p class="text-muted">
+          Do you know how many matches you played? How much time did you practice last week? 
+          What is your record against certain opponent? Unless you are on the professional circuit, these are impossible questions to answer. 
+        </p>
+      </div>
+
+      <div class="row">
+        
+        <div class="col-lg-12 my-auto">
+          <div class="container-fluid">
             <div class="row">
-                
-                <div class="col-lg-5 col-sm-6">  
-                    <h2 class="section-heading">Head to Head and Doubles Stats</h2>
-                    <p class="lead">
-                        Get your lifetime <i>Head to Head Statistics</i> against any opponent. 
-                        <br><br>
-                        Get your overall stats with all your doubles partner. Now you can objectively determine who is a better 
-                        doubles partner for you. 
-
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/h2h_doubles.png" width="200" alt="Tennis statistics">
+                  <h3>Head to Head</h3>
+                  <p class="text-muted">Get Head to Head Statistics against any opponent and many more.
+                  </p>
                 </div>
-             
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/h2h_doubles.png" alt="Tennis statistics">
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/stats.png" width="200" alt="Tennis statistics">
+                  <h3>Match History</h3>
+                  <p class="text-muted">
+                    Get your win, loss stats for <i>matches</i>, <i>sets</i> and <i>games</i> by 
+                    <i>week</i>, <i>month</i> or <i>year</i>. 
+                  </p>
                 </div>
+              </div>
             </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row"> 
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
-              
-                    <h2 class="section-heading">Synchronize between iOS devices</h2>
-                    <p class="lead">
-                        If you have an iPhone, iPad and Apple Watch, TennisKeeper will synch your data across all of your devices.
-                        <br><br>
-                        Your data is stored on the Apple iCloud. There is no additional account to create or password to remember. 
-                    </p>
-                   
-                </div>
-
-                <div class="col-lg-5  col-sm-pull-6 col-sm-6"> 
-                    <img class="img-responsive" src="img/iphone_ipad.png" width="400" alt="iCloud iPhone iPad">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
             <div class="row">
-                
-                <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Message App Support</h2>
-                    <p class="lead">
-                        Share your tennis activity with your friends right from the iMessage app. Simply
-                        start a new message, tap the image and add it to your message.
-                        The image is customized to show your activity type, duration, scores, number of steps and shots.
-                        <br><br>
-
-                        Want more <a href="stickers.html">iMessage Stickers</a> to enrich your tennis conversations, 
-                        get our <a href="http://apple.co/2qNcakP">Fun Tennis Stickers</a> pack.
-                       
-                        <br><br>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/dashboard.png" width="200" alt="Tennis Fitness App">
+                  <h3>Time Spent</h3>
+                  <p class="text-muted">
+                    See your time spent by week, month and year. Discover how much time you spent practicing vs
+                    playing matches.
+                  </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                   
-                    <img class="img-responsive" src="img/MessageStore.png" alt="Message App Store">
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/ActivityApp.png" width="200" alt="Activity App">
+                  <h3>Activity App</h3>
+                  <p class="text-muted">
+                    Get credit towards your Move and Exercise goals in Apple Activity app.
+                  </p>
                 </div>
+              </div>
             </div>
-
+          </div>
         </div>
-        <!-- /.container -->
+      </div>
     </div>
+  </section>
 
-     <div class="content-section-a">
 
-        <div class="container">
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container"> 
 
-            <div class="row"> 
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                
-                    <h2 class="section-heading">Today Widget Support</h2>
-                    <p class="lead">
-                        Add TennisKeeper widget to your home screen and see your tennis progress such as the number of steps and shots you made today. You can also see the number of tennis sessions you played in the past two weeks. 
-                        <br><br>
-                        To open TennisKeeper, just tap the widget.
-                    </p>
-                </div>
-
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6"> 
-                    <img class="img-responsive" src="img/widget.png" width="400" alt="Widget">
-                </div>
-            </div>
-
+         <div class="row">
+          <div class="col-sm-6">
+            <h3>Track Live Tennis Match</h3>
+              <p class="text-muted">
+                 Parents, coaches and teams can use Live Match Point by Point tracking 
+                 to record their kids, students or teammates actions from the sidelines. 
+                 Keep track of each point details and analyze the match stats to identify areas for improvement. 
+              <br>
+              <br>
+              Tennis fans can record the tennis matches they are watching.
+              </p>
+          </div>
+          <div class="col-sm-6">       
+            <img class="img-responsive" src="img/track_livematch.png" width="300" alt="Tennis Live Match">  
+          </div>
         </div>
-        <!-- /.container -->
+        
+        <div class="row">
+          <div class="col-sm-6">         
+            <img class="img-responsive" src="img/tennis_team.png" height="400" alt="Tennis Swings">
 
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row"> 
-               
-                <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Manage Your Tennis Team</h2>
-                    <p class="lead">
-                    Tennis is a team sports. 
-                    If you are playing on a <a href="team.html">tennis team</a>,            
+          </div>
+          <div class="col-sm-6">
+            <h3>Manage League Teams</h3>
+              <p class="text-muted">
+                    If you are playing on a league team,             
                     use TennisKeeper to keep track of your own results. 
+                    <br>
+                    <br>
                     If you captain or coach tennis teams, use TennisKeeper to help you manage all your teams roster and results. 
-                    </p>
-                   
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-              
-                    <img class="img-responsive" src="img/tennis_team.png" width="400" alt="Tennis League">
-                </div>
-            </div>
 
+          </div>
         </div>
-        <!-- /.container -->
 
-    </div>
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <h2 class="section-heading">Social Sharing</h2>
-                    <p class="lead">
-                        Have a special tennis moment you want to remember? Attach a picture of where you are playing
-                        to your tennis activity and share it with TennisKeeper Community.
-                      
-                        <br><br>
-                        <a href="social.html">Share your tennis results on social media</a> so that your friends and
-                        families can cheer for you.
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">      
-                    <img class="img-responsive" src="img/socialshare.png" alt="Tennis statistics">
-                </div>
-            </div>
-
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>String Tracker</h3>
+              <p class="text-muted">
+                 Our String Tracker tracks the hours played on your string and
+                 will notify you when it is time to restring.
+                  <br><br>
+                  No more broken strings!
+              </p>
+          </div>
+          <div class="col-sm-6">       
+            <img class="img-responsive" src="support/addstring.png" height="400" alt="Tennis Live Match">  
+          </div>
         </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row"> 
-               
-                <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Intelligent Alerts</h2>
-                    <p class="lead"> 
-                    Play like the Pros - Get instant notification when you  
-                    played the longest match by duration or by the number of games. 
-                   </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-              
-                    <img class="img-responsive" src="img/match_notification.png" alt="Tennis League">
-                </div>
-            </div>
-
+        
+        <div class="row">
+          <div class="col-sm-6">         
+            <img class="img-responsive" src="img/iphone_ipad.png" width="400" alt="Tennis Swings">
+          </div>
+          <div class="col-sm-6">
+            <h3>Synchronize between iOS devices</h3>
+              <p class="text-muted">If you have an iPhone, iPad and Apple Watch, TennisKeeper will synch your data across all of your devices. Your data is stored on the Apple iCloud. 
+              <br><br>
+              There is no additional account to create or password to remember.
+              </p>
+          </div>
         </div>
-        <!-- /.container -->
-
-    </div>
-
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row"> 
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-             
-                    <h2 class="section-heading">Track Your String Usage</h2>
-                    <p class="lead">Our <a href="support/string.html">String Tracker</a> 
-                        tracks the hours played on your string and
-                        we will notify you when it is time to restring.
-                        <br><br>
-                        No more broken strings!
-                        <br><br>
-                        We also offer a special discount
-                        for buying strings from our 
-                        <a href="http://us9.campaign-archive1.com/?u=9fff6bbf862355e4cb901a7ec&id=d68ca2ae7f">string partner</a>.
-                    </p>
-                </div>
-
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/addstring.png" width="400" alt="Tennis Stringing">
-                </div>
-
-                    
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
     
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row"> 
-                <div class="col-lg-5 col-sm-6">
-               
-                    <h2 class="section-heading">Discover everyone's moments</h2>
-                    <p class="lead">
-                        Compare your tennis workout duration, scores, number of forehand, backhand or others shots 
-                        made with the rest of the TennisKeeper users. Stay motivated and keep improving.
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/communityactivities.png" width="400" alt="Tennis Activities">
-                </div>
-
-                    
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+      </div>
     </div>
+    <div class="overlay"></div>
+  </section>
 
-	<a  name="contact"></a>
-    <div class="banner">
+  <section class="cta" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        
+      </div>
 
-        <div class="container">
-
+      <div class="row">
+        
+        <div class="col-lg-12 my-auto">
+          <div class="container-fluid">
             <div class="row">
-              
-              
-                <div class="col-lg-3">
-                    <h2>Try TennisKeeper<br> for free today</h2> <br/>
-                     <a class="badge-link" href="http://apple.co/2b0cmr9" title="TennisKeeper" target="_blank">
-                                <img src="img/appstore-logo.png" width="200" alt="tenniskeeper"/></a>
-                    <!--
-                    <ul class="list-inline banner-social-buttons">
-                    
-
-                        <li>
-                            <a href="http://www.socialtennis.com/" title="Social Tennis Strings" target="_blank"><img src="img/socialtennis.png" width="180" height="150" alt="Social Tennis"/></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://www.ytexstrings.com/" title="YTEX Strings" target="_blank"><img src="img/ytexlogo.jpg" width="180" height="150" alt="YTEX String"/></a>
-                        </li>
-                        
-                        <li>
-                            <a href="http://app-apes.com" title="Indie App Reviews (Android, Apple, Windows)" target="_blank"><img src="http://app-apes.com/wp-content/uploads/2016/04/App_Apes_Indie_App_Reviews.png" alt="Indie App Reviews (Android, Apple, Windows)" /></a>
-                         </li>
-            
-                        -->
-                        <!--
-                        <li>   
-                            <a href="https://twitter.com/tennis_keeper" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/TennisKeeper-533206656861955/" class="btn btn-default btn-lg"><i class="fa fa-facebook-square fa-fw"></i> 
-                                    <span class="network-name">Facebook</span></a>
-                        </li>
-                    -->
-                    </ul>
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/match_notification.png" width="300" alt="Notifications">
+                  
+                  <h3>Intelligent Alerts</h3>
+                  <p class="text-muted">Play like the Pros - Get instant notification when you  
+                  reached new milestones.
                 </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/socialshare.png" width="300" alt="Tennis statistics">
+                  <h3>Social Sharing</h3>
+                  <p class="text-muted">
+                    Use customizable images to show off your activity stats on your favorite social media.
+                  </p>
+                </div>
+              </div>
+           
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <img class="img-responsive" src="img/leaderboard.png" width="300" alt="Leaderboard">
+                  <h3>Leaderboard</h3>
+                  <p class="text-muted">
+                    Hit more balls and rise up the Leaderboard. See how you measure up to the Community.
+                  </p>
+                </div>
+              </div>
+              
             </div>
-
+          </div>
         </div>
-        <!-- /.container -->
-
+      </div>
     </div>
-    <!-- /.banner -->
+  </section>
 
-    <!-- Footer -->
-    <section id="contact" class="contact bg-primary">
-        <div class="container">
+  <footer>
+    <div class="container">
+      <p>&copy; TennisKeeper 2019. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="privacy.html">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="terms.html">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="support.html">Support</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
-            <ul class="list-inline list-social">
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-                <li class="social-apple">
-                    <a href="https://itunes.apple.com/us/app/tenniskeeper/id1097388824"><i class="fa fa-apple"></i></a>
-                </li>
-                
-                <li class="social-twitter">
-                    <a href="https://twitter.com/tennis_keeper"><i class="fa fa-twitter"></i></a>
-                </li>
-                
-                <li class="social-facebook">
-                    <a href="https://www.facebook.com/tenniskeeper/"><i class="fa fa-facebook"></i></a>
-                </li>
-                
-                <li class="social-google-plus">
-                    <a href="https://plus.google.com/u/0/116676099230954666790"><i class="fa fa-google-plus"></i></a>
-                </li>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-                <li class="social-pinterest">   
-                    <a href="https://www.pinterest.com/tenniskeeperapp/"><i class="fa fa-pinterest"></i></a>
-                </li>
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
 
-                <li class="social-email">
-                    <a href="mailto:tenniskeeper@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                </li>
-
-            </ul>
-
-            <ul class="list-inline">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>    
-                <li>
-                    <a href="support.html">Help</a>
-                </li>                
-                <li>
-                    <a href="privacy.html">Privacy</a>
-                </li>
-                <li>
-                    <a href="terms.html">Terms</a>
-                </li>
-            </ul>
-             <p class="copyright text-muted small">Copyright &copy; TennisKeeper 2016. All Rights Reserved</p>
-        </div>
-    </section>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script>
+  <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -639,9 +386,9 @@
         ga('create', 'UA-77656435-1', 'auto');
         ga('send', 'pageview');
 
-    </script>
+  </script>
 
-    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+  <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 </body>
 
 </html>
