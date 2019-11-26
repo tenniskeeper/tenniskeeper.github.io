@@ -1,0 +1,46 @@
+/**
+ * This will get rid of the google menu at the top
+ */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}         
+body {            
+    top: 0px !important; 
+}
+
+.goog-te-menu-frame {
+    max-width:100% !important; 
+}
+.goog-te-menu2 { 
+    max-width: 100% !important;
+    overflow-x: scroll !important;
+    box-sizing:border-box !important; 
+    height:auto !important; 
+}
+
+/**
+ * Style the Google translate drop down
+ */
+/*
+div#google_translate_element div.goog-te-gadget-simple {
+        font-size: 19px;
+}
+*/
+
+div#google_translate_element div.goog-te-gadget-simple {
+	background-color: black;
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span {
+	color: white
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover {
+	color: #fcbd20;
+}
+
+/*
+div#google_translate_element div.goog-te-gadget-simple {
+	border: none;
+}
+*/
