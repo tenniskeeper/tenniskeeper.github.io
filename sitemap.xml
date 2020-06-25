@@ -9,172 +9,177 @@
 
 <url>
   <loc>http://www.tenniskeeperapp.com/</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/index.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/reviews.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/blog/tkblog.html</loc>
-  <lastmod>2020-05-19T13:27:36+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/privacy.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/terms.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/blog/whyLogRacquetSports.html</loc>
-  <lastmod>2020-05-19T13:27:36+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/blog/applewatchBadminton.html</loc>
-  <lastmod>2020-05-19T13:27:36+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/blog/dataInsights.html</loc>
-  <lastmod>2020-05-19T13:27:36+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/blog/segments-with-apple-watch.html</loc>
-  <lastmod>2020-05-19T13:27:36+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.tenniskeeperapp.com/blog/heartRateRecovery.html</loc>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/overview.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/securedata.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/icloud.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/health.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/proedition.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/addactivity.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/updateactivity.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/deleteactivity.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/addplayer.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/updateplayer.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/deleteplayer.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/applewatch.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/applewatch_trouble_shooting.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/sa_trouble_shooting.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/stats.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/movement.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/livematch/pointbypoint.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/team.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/string.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/stickers.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/share.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/applewatch_closing.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://www.tenniskeeperapp.com/support/applewatch_notifications.html</loc>
-  <lastmod>2020-05-19T13:27:37+00:00</lastmod>
+  <lastmod>2020-06-25T15:24:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
