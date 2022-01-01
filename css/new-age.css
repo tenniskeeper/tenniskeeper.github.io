@@ -32,6 +32,14 @@ hr {
   border-color: rgba(34, 34, 34, 0.1);
 }
 */
+
+hr {
+  height: 2px;
+  border-width:0;
+  color:gray;
+  background-color: gray;
+}
+
 hr.light {
   border-color: white;
 }
