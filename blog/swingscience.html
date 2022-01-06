@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="How to record your Table Tennis workout and scores using Apple Watch">
+  <meta name="author" content="TennisKeeper">
+  <meta property="og:image" content="http://tenniskeeperapp.com/blog/img/reasonpingpong.jpg" />
+
+  <title>Swing Science</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <link href="css/google-translate.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><img alt="TennisKeeper" src="../img/logo.png"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">  
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="tkblog.html">Blog</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item lang-en    lang-select" data-lang="en"    href="#googtrans(en|en)">English</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="ja"    href="#googtrans(en|ja)">Japanese</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="de"    href="#googtrans(en|de)">German</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="it"    href="#googtrans(en|it)">Italian</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="fr"    href="#googtrans(en|fr)">French</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="pt"    href="#googtrans(en|pt)">Portuguese</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="es"    href="#googtrans(en|es)">Spanish</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="ko"    href="#googtrans(en|ko)">Korean</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="zh-CN" href="#googtrans(en|zh-TW)">Chinese</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="ru"    href="#googtrans(en|ru)">Russian</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/reasonpingpong.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>The Science Behind Your Swings</h1>
+        
+
+            <span class="meta">Track your activities and measure your progress!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>
+          </p>
+        
+          <h2 class="section-heading">Apple Watch Sensors</h2>
+
+          <p>Your Apple Watch has built-in hardware sensors (Accelerometer and Gyroscope) that can be used to track your arm movement. The sensors can sense your wrist rotation, orientation and acceleration speed provided you wear the Apple Watch on your hitting hand and set the Watch Orientation to the same hand. TennisKeeper uses the motion data from these sensors to identify and classify a shot.
+            
+          
+          <h2 class="section-heading">How is a swing detected?</h2>
+          <p>Your Apple Watch provides motion updates at a 50 hertz cadence. For a swing to be detected and classified, it must meet the minimum swing speed and rotation angles within the second. If you make a swing and you think it was not counted, or counted incorrectly, it is likely your acceleration is too slow, or your swing path rotation is too short within a 50 Hz window. In that case, you can calibrate your swings in TennisKeeper and set your own minimum values. See Swing Calibration topic below.
+          </p>
+          <hr>
+        
+          <h2 class="section-heading">The Metrics of a Swing</h2>
+          <p>The <a href="https://developer.apple.com/documentation/coremotion/getting_processed_device-motion_data">Device Motion</a>
+             framework fuses the data from your Apple Watch accelerometer and gyroscope to provide four distinct measurements: 
+             <a href="https://developer.apple.com/documentation/coremotion/cmdevicemotion/1616149-useracceleration">user acceleration</a>, 
+             <a href="https://developer.apple.com/documentation/coremotion/cmdevicemotion/1615967-rotationrate">rotation rate</a>,
+             <a href="https://developer.apple.com/documentation/coremotion/cmdevicemotion/1616050-attitude">attitude</a>, and
+             <a href="https://developer.apple.com/documentation/coremotion/cmdevicemotion/1616164-gravity">gravity</a>. 
+             TennisKeeper uses these properties to formulate the metrics of a swing.
+          </p>
+          
+          <h3>Speed</h3>
+          <p>This measures how fast your hand is swinging using the <i>user acceleration</i> property. Note that this is not your racquet speed.
+            However, different users can swing their hand at very different speed.
+          </p>
+          <a href="#"><img class="img-fluid" src="img/swing_speed.jpg" alt=""></a>
+          <span class="caption text-muted">Swing Speed from two different users</span>
+          
+          <h3>Rotation</h3>
+          <p>This measures your wrist rotation using the <i>rotation rate</i> and <i>gravity</i>. 
+            Depending on whether you wear the watch on your left (for left-handed player) or right (for right-handed player) wrist, 
+            the direction of rotation determines if the swing will be classified as a forehand vs a backhand shot.
+          </p>
+
+           <h4>Right-Handed Player</h4>
+
+            <br>
+                Forehand: Counter Clockwise    
+            <br>
+                Backhand: Clockwise
+            
+            <a href="#"><img class="img-fluid" src="img/swing_righthanded.jpg" alt=""></a>
+            <span class="caption text-muted">Rotation for Right Handed Player</span>
+            <br>
+
+            <h4>Left-Handed Player</h4>
+            
+              Forehand: Clockwise    
+              Backhand: Counter Clockwise
+            <br>
+            </p>
+            <a href="#"><img class="img-fluid" src="img/swing_lefthanded.jpg" alt=""></a>
+            <span class="caption text-muted">Rotation for Left Handed Player</span>
+            <br>
+
+            <h3 class="section-heading">Impact Time</h3>
+            <p>This is the time when you impact the ball. TennisKeeper determines your impact time based on your swing speed. It is the time when your reached the maximum acceleration in your swing.
+            <p>
+            You can visualize the impact time in TennisKeeper detail swing graph. 
+            The point where you reached maximum acceleration is marked with a red line on your swing path. A perfect impact should be somewhere in the middle of your swing (within a one second window) because ideally you start slow, accelerate, and decelerate. If your impact point is late, it might be because of your preparation.
+            </p>
+            
+            <a href="#"><img class="img-fluid" src="img/swing_impacttime.png" alt=""></a>
+            <span class="caption text-muted">Impact Time</span>
+            <br>
+
+            <h3>Tilt</h3>
+            <p>
+              This measures the attitude of the watch. It is also known as Euler angles or roll, pitch, yaw. The attitude values determine the orientation (tilt angle) of the watch. A swing is classifed as a Smash if the tilt angle is very large, as it 
+              is most likely that this shot is a serve or an overhead or a high swinging volley.
+            </p>
+
+            
+            
+            <h3 class="section-heading">3D Swing Path</h3>
+            <p>After you contact the ball, your arm should follow through and complete the motion. This 3D view allows you to visualize the circular path. The red line indicates when you impact the ball. It is best if the impact is somewhere in the middle. If it is very early in the path, it may suggest that your preparation is late.
+            </p>
+            
+            <h3 class="section-heading">2D Time Sequence</h3>
+            <p>Your Apple Watch is set to provide motion updates at a 50 hertz cadence. This 2D view shows your wrist movement for the swing across this 1 second time window. By observing the positive vs negative values along this 1 second window, you can understand why this particular swing is counted as a backhand or a forehand based on your wrist rotation.
+            </p>
+            <hr>
+
+            <h2 class="section-heading">Swing Calibration</h2>
+          <p>You can adjust the minimum speed for a swing to be classified as a valid shot. If the value is set too low, movement such as picking up a ball may be incorrectly counted as a shot. If the value is set too high, you may see fewer number of shots because swings that don't make the threshold will not be counted.
+          </p>
+
+          <p>You can also adjust the default rotation angle for your forehands and backhands. If you are not seeing enough forehands, you can try setting the forehand rotation angle to a smaller number. Or you can set the backhand rotation angle to a larger number to ensure you are not picking up false positives from random arm movement.
+          </p>
+
+          <p>Your Apple Watch cannot determine if a ball hit the ground or not. Therefore, in this context, a forehand volley is simply a swing with a shorter path (i.e. smaller angles) than a normal forehand. A backhand volley is a swing with a shorter path than a normal backhand.
+          </p>
+
+          <p>If a shot has a large tilt angle or a rapid sharp rise motion, it is classified as a Serve or a Smash. While your Apple Watch can determine your hand orientation, it does not know where you are on the court when such movement is detected. Therefore these two shot types are combined into the same category.
+          </p>
+
+          <p><blockquote class="blockquote">
+          Spending a few minutes post-workout recording what happened will add a 
+          powerful layer of accountability to your Table Tennis.
+          </blockquote>
+          Very soon logging your Table Tennis workouts will become a habit. 
+          See 
+          <a class="text-info" href="whyLogRacquetSports.html">The top 10 reasons for keeping a Racquet Sports log</a> and 
+          learn how it will help you become a better player.
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto text-center">
+             <a href="https://twitter.com/share" class="twitter-share-button" 
+                  data-text="How to record your Table Tennis workout using Apple Watch" 
+                  data-url="http://www.tenniskeeperapp.com/blog/swingscience.html"
+                  data-show-count="true"></a>
+              <br>
+              <div class="fb-share-button" 
+                     data-href="http://www.tenniskeeperapp.com/blog/swingscience.html" 
+                     data-layout="button_count">
+              </div>
+      
+          <p class="copyright text-muted">Copyright &copy; TennisKeeper 2022. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/clean-blog.min.js"></script>
+  <script src="js/tk-blog.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <div id="fb-root"></div>
+  
+</body>
+
+</html>
