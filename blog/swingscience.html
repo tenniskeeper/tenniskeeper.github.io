@@ -94,7 +94,7 @@
             
           
           <h2 class="section-heading">How is a swing detected?</h2>
-          <p>Your Apple Watch provides motion updates at a 50 hertz cadence. For a swing to be detected and classified, it must meet the minimum swing speed and rotation angles within the second. If you make a swing and you think it was not counted, or counted incorrectly, it is likely your acceleration is too slow, or your swing path rotation is too short within a 50 Hz window. In that case, you can calibrate your swings in TennisKeeper and set your own minimum values. See Swing Calibration topic below.
+          <p>Your Apple Watch provides motion updates at a 50 hertz cadence. For a swing to be detected and classified, it must meet the minimum swing speed and rotation angles within the second. If you make a swing and you think it was not counted, or counted incorrectly, it is likely your acceleration is too slow, or wrist rotation (i.e. your swing path) is too short within the 50 Hz window. In that case, you can calibrate your swings settings in TennisKeeper and set your own minimum values. See the Swing Calibration article for more information.
           </p>
           <hr>
         
@@ -146,7 +146,7 @@
             <p>This is the time when you impact the ball. TennisKeeper determines your impact time based on your swing speed. It is the time when your reached the maximum acceleration in your swing.
             <p>
             You can visualize the impact time in TennisKeeper detail swing graph. 
-            The point where you reached maximum acceleration is marked with a red line on your swing path. A perfect impact should be somewhere in the middle of your swing (within a one second window) because ideally you start slow, accelerate, and decelerate. If your impact point is late, it might be because of your preparation.
+            The point where you reached maximum acceleration is marked with a red line on your swing path. A perfect impact should be somewhere in the middle of your swing (within the one second window) because ideally you start slow, accelerate, and decelerate. If your impact point is late, it might be because of your preparation.
             </p>
             
             <a href="#"><img class="img-fluid" src="img/swing_impacttime.png" alt=""></a>
@@ -155,22 +155,42 @@
 
             <h3>Tilt</h3>
             <p>
-              This measures the attitude of the watch. It is also known as Euler angles or roll, pitch, yaw. The attitude values determine the orientation (tilt angle) of the watch. A swing is classifed as a Smash if the tilt angle is very large, as it 
-              is most likely that this shot is a serve or an overhead or a high swinging volley.
-            </p>
+              This measures the orientation (aka Euler angles) of the Watch using the <i>attitude</i> property. It is used to assist in the classification of
+              a swing that may be a serve, an overhead or even a high swinging volley. In TennisKeeper, they are collectively refer to as a <i>Smash</i>. A swing is classifed as a <i>Smash</i> if one of the following criteria is met:
+              <ul>
+                <li>If the tilt angle is bigger than the default (i.e. 190.79)</li>
+                <li>If there is a rapid hand rising</li>
+              </ul>
+            </p>  
+            <!--
+            <p>So check your forehand volleys to see if it is because you made a big tilt, or if you have a rapid hand rising. The easiest way to find out about the rapid hand rising is to look at the 2D time sequence.
 
-            
-            
-            <h3 class="section-heading">3D Swing Path</h3>
-            <p>After you contact the ball, your arm should follow through and complete the motion. This 3D view allows you to visualize the circular path. The red line indicates when you impact the ball. It is best if the impact is somewhere in the middle. If it is very early in the path, it may suggest that your preparation is late.
+              If your forehand volley is caused by a big tilt, you can change the tilt angle to be much larger so that it won't be caught by this rule. This may or may not have an impact on your serve, assuming your serve is normal with a rapid hand rising, it should not be a problem.
+
             </p>
+          -->
+
+            <h3>3D Swing Path</h3>
+            <p>After you contact the ball, your arm should follow through and complete the motion. This 3D view allows you to visualize the circular path. The red line indicates when you impact the ball. It is best if the impact is somewhere in the middle. If it is very early in the path, it may suggest that your preparation is late.
             
-            <h3 class="section-heading">2D Time Sequence</h3>
+
+            TennisKeeper's 3D graph can be thought of as the artist's rendition of the same data to help most people understand it easier in terms of the swing pattern.
+            smooth lines (vs jagged) as a good swing because that said your swing is steady without a lot of random wrist movement. 
+
+
+            </p>
+            <a href="#"><img class="img-fluid" src="img/swing_smooth.jpg" alt=""></a>
+            <span class="caption text-muted">Smooth vs Jagged Swing</span>
+            <br>
+
+            <h3>2D Time Sequence</h3>
             <p>Your Apple Watch is set to provide motion updates at a 50 hertz cadence. This 2D view shows your wrist movement for the swing across this 1 second time window. By observing the positive vs negative values along this 1 second window, you can understand why this particular swing is counted as a backhand or a forehand based on your wrist rotation.
             </p>
+            
             <hr>
 
-            <h2 class="section-heading">Swing Calibration</h2>
+            <!--
+            <h3 class="section-heading">Swing Calibration</h2>
           <p>You can adjust the minimum speed for a swing to be classified as a valid shot. If the value is set too low, movement such as picking up a ball may be incorrectly counted as a shot. If the value is set too high, you may see fewer number of shots because swings that don't make the threshold will not be counted.
           </p>
 
@@ -182,6 +202,7 @@
 
           <p>If a shot has a large tilt angle or a rapid sharp rise motion, it is classified as a Serve or a Smash. While your Apple Watch can determine your hand orientation, it does not know where you are on the court when such movement is detected. Therefore these two shot types are combined into the same category.
           </p>
+        -->
 
           <p><blockquote class="blockquote">
           
