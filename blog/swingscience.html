@@ -158,33 +158,49 @@
               This measures the orientation (aka Euler angles) of the Watch using the <i>attitude</i> property. It is used to assist in the classification of
               a swing that may be a serve, an overhead or even a high swinging volley. In TennisKeeper, they are collectively refer to as a <i>Smash</i>. A swing is classifed as a <i>Smash</i> if one of the following criteria is met:
               <ul>
-                <li>If the tilt angle is bigger than the default (i.e. 190.79)</li>
+                <li>If the tilt angle is bigger than the default (i.e. 190.79&#176;)</li>
                 <li>If there is a rapid hand rising</li>
               </ul>
+              
+              The easiest way to see if there is a rapid hand rising is to look at TennisKeeper's <i>3D Swing Path</i> and the 
+              <i>2D Time Sequence</i> graph view. Both views rendered the <i>Rotation</i> data in a graph so that you can understand 
+              your wrist motion.
             </p>  
+            <hr>
             <!--
-            <p>So check your forehand volleys to see if it is because you made a big tilt, or if you have a rapid hand rising. The easiest way to find out about the rapid hand rising is to look at the 2D time sequence.
+            <p>So check your forehand volleys to see if it is because you made a big tilt, or if you have a rapid hand rising. 
 
               If your forehand volley is caused by a big tilt, you can change the tilt angle to be much larger so that it won't be caught by this rule. This may or may not have an impact on your serve, assuming your serve is normal with a rapid hand rising, it should not be a problem.
 
             </p>
           -->
-
-            <h3>3D Swing Path</h3>
-            <p>After you contact the ball, your arm should follow through and complete the motion. This 3D view allows you to visualize the circular path. The red line indicates when you impact the ball. It is best if the impact is somewhere in the middle. If it is very early in the path, it may suggest that your preparation is late.
+            <h2 class="section-heading">3D Swing Path</h2>
             
+            <p>After you contact the ball, your arm should follow through and complete the motion. This 3D view allows you to visualize the circular path. 
+            
+            <ul>
+              <li>A smooth line is a better swing because it indicates that your wrist is steady without a lot of random wrist movement that can
+              potentially reduce the speed or consistency of your shot.</li>
 
-            TennisKeeper's 3D graph can be thought of as the artist's rendition of the same data to help most people understand it easier in terms of the swing pattern.
-            smooth lines (vs jagged) as a good swing because that said your swing is steady without a lot of random wrist movement. 
+              <a href="#"><img class="img-fluid" src="img/swing_smooth.jpg" alt=""></a>
+                <span class="caption text-muted">Smooth vs Jagged Swing</span>
+              
+              <li>The red line indicates when you impact the ball. It is best if the impact (i.e. maximum acceleration) is somewhere in the middle.
+              </li>
+              <br>
 
-
+              <li>The green circle indicates your wrist location when you start your swing. 
+                <a href="#"><img class="img-fluid" src="img/swing_highlow.jpg" alt=""></a>
+                <span class="caption text-muted">Start and End Location of your Swing</span>
             </p>
-            <a href="#"><img class="img-fluid" src="img/swing_smooth.jpg" alt=""></a>
-            <span class="caption text-muted">Smooth vs Jagged Swing</span>
-            <br>
-
-            <h3>2D Time Sequence</h3>
-            <p>Your Apple Watch is set to provide motion updates at a 50 hertz cadence. This 2D view shows your wrist movement for the swing across this 1 second time window. By observing the positive vs negative values along this 1 second window, you can understand why this particular swing is counted as a backhand or a forehand based on your wrist rotation.
+            
+      
+            <h2 class="section-heading">2D Time Sequence</h2>
+            <p>While the <i>3D Swing Path</i> view can be thought of as artist's rendition to help you understand your swing pattern, the<i>2D Time Sequence</i> view
+            renders the same data in a more technical way in the form of a 2D chart.
+            </p>
+            <p>
+            Your Apple Watch is set to provide motion updates at a 50 hertz cadence. This 2D view shows your wrist movement for the swing across this 1 second time window. By observing the positive vs negative values along this 1 second window, you can understand why this particular swing is counted as a backhand or a forehand based on your wrist rotation.
             </p>
             
             <hr>
