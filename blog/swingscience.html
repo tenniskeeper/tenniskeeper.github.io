@@ -90,7 +90,9 @@
         
           <h2 class="section-heading">Apple Watch Sensors</h2>
 
-          <p>Your Apple Watch has built-in hardware sensors (Accelerometer and Gyroscope) that can be used to track your arm movement. The sensors can sense your wrist rotation, orientation and acceleration speed provided you wear the Apple Watch on your hitting hand and set the Watch Orientation to the same hand. TennisKeeper uses the motion data from these sensors to identify and classify a shot.
+          <p>Your Apple Watch has built-in hardware sensors (Accelerometer and Gyroscope) that can be used to track your arm movement. The sensors can sense your wrist rotation, orientation and acceleration speed provided you wear the Apple Watch on your hitting hand and set the 
+            <a href="../support/applewatch.html">Watch Orientation</a> 
+            to the same hand. TennisKeeper uses the motion data from these sensors to identify and classify a shot.
             
           
           <h2 class="section-heading">How is a swing detected?</h2>
@@ -189,42 +191,39 @@
               </li>
               <br>
 
-              <li>The green circle indicates your wrist location when you start your swing. 
+              <li>The green circle indicates your wrist location when you start your swing. </li>
                 <a href="#"><img class="img-fluid" src="img/swing_highlow.jpg" alt=""></a>
                 <span class="caption text-muted">Start and End Location of your Swing</span>
+            </ul>
             </p>
             
       
             <h2 class="section-heading">2D Time Sequence</h2>
-            <p>While the <i>3D Swing Path</i> view can be thought of as artist's rendition to help you understand your swing pattern, the<i>2D Time Sequence</i> view
-            renders the same data in a more technical way in the form of a 2D chart.
-            </p>
-            <p>
-            Your Apple Watch is set to provide motion updates at a 50 hertz cadence. This 2D view shows your wrist movement for the swing across this 1 second time window. By observing the positive vs negative values along this 1 second window, you can understand why this particular swing is counted as a backhand or a forehand based on your wrist rotation.
-            </p>
+            <p>While the <i>3D Swing Path</i> view can be thought of as artist's rendition to help you understand your swing path motion, 
+              the <i>2D Time Sequence</i> view renders the same data technically in the form of a traditional 2D chart. Your 
+              Apple Watch provides motion updates at a 50 hertz. This means we are acquiring 50 sample points within a 1 second window.
+              The <i>2D Time Sequence</i> view shows your wrist movement (Rotation) across this 1 second time window. 
+            
+            <ul>
+              <li>In this swing, we can see a rapid hand movement between a few points. Therefore, it is classified as a <i>Smash</i>
+              even though the Tilt is smaller than the default.</li>
+                <a href="#"><img class="img-fluid" src="img/swing_smash.jpg" alt=""></a>
+                <span class="caption text-muted">Smash - Rapid Hand Rising within a few points</span>
+              <br>
+
+              <li>By observing the positive vs negative values along this 1 second window, you can understand why a particular swing is counted as a forehand vs a backhand based on your wrist rotation.</li>
+               <a href="#"><img class="img-fluid" src="img/swing_2dshots.jpg" alt=""></a>
+                <span class="caption text-muted">Forehand vs Backhand Rotation for a Right-Handed Player</span>
+            </ul>
             
             <hr>
 
-            <!--
-            <h3 class="section-heading">Swing Calibration</h2>
-          <p>You can adjust the minimum speed for a swing to be classified as a valid shot. If the value is set too low, movement such as picking up a ball may be incorrectly counted as a shot. If the value is set too high, you may see fewer number of shots because swings that don't make the threshold will not be counted.
-          </p>
-
-          <p>You can also adjust the default rotation angle for your forehands and backhands. If you are not seeing enough forehands, you can try setting the forehand rotation angle to a smaller number. Or you can set the backhand rotation angle to a larger number to ensure you are not picking up false positives from random arm movement.
-          </p>
-
-          <p>Your Apple Watch cannot determine if a ball hit the ground or not. Therefore, in this context, a forehand volley is simply a swing with a shorter path (i.e. smaller angles) than a normal forehand. A backhand volley is a swing with a shorter path than a normal backhand.
-          </p>
-
-          <p>If a shot has a large tilt angle or a rapid sharp rise motion, it is classified as a Serve or a Smash. While your Apple Watch can determine your hand orientation, it does not know where you are on the court when such movement is detected. Therefore these two shot types are combined into the same category.
-          </p>
-        -->
-
-          <p><blockquote class="blockquote">
-          
-          </blockquote>
-          
-         
+            <p>Analyze each swing shot with TennisKeeper and Apple Watch. 
+            <blockquote class="blockquote">
+             While TennisKeeper may not accurately classify all your swings shots, it provides a base line for you to analyze them
+             in a consistent way. 
+            </blockquote>
+              For each swing, see how you hit the ball. Do you have a clean contact? Is your swing smooth or jittery? Drill into your game patterns and see how your swing speed evolve over time.
           </p>
         </div>
       </div>
