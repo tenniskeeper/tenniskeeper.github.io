@@ -6,20 +6,26 @@
 
 body {
   font-size: 20px;
-  color: #212529;
+  background-color: #272B30; /* #212529; clau */
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
 p {
   line-height: 1.5;
   margin: 30px 0;
+  color: #aaa; /*white;*/
 }
 
 p a {
   text-decoration: underline;
 }
 
-h1,
+h1 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
 h2,
 h3,
 h4,
@@ -27,8 +33,15 @@ h5,
 h6 {
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white; /*#aaa;*/
 }
 
+ol,
+ul {
+  color: #aaa;
+}
+
+/*  clau
 a {
   color: #212529;
   transition: all 0.2s;
@@ -36,6 +49,23 @@ a {
 
 a:focus, a:hover {
   color: #0085A1;
+}
+*/
+a {
+  color: #fdcc52;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+hr {
+  height: 1px;
+  border-width:0;
+  color:gray;
+  background-color: gray;
 }
 
 blockquote {
@@ -61,13 +91,13 @@ blockquote {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: black; /*#fff;*/
   background: #0085A1;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
+  color: black; /*#fff;*/
   background: #0085A1;
   text-shadow: none;
 }
@@ -90,7 +120,7 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  background-color: black; /*white;*/
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -147,7 +177,7 @@ img::-moz-selection {
     position: fixed;
     top: -67px;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black; /*white;*/
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
@@ -191,7 +221,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: black; /*white;*/
 }
 
 @media only screen and (min-width: 768px) {
@@ -252,6 +282,7 @@ header.masthead .post-heading .meta {
   font-weight: 300;
   font-style: italic;
   font-family: 'Lora', 'Times New Roman', serif;
+  color: #fff;
 }
 
 header.masthead .post-heading .meta a {
@@ -409,3 +440,4 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+

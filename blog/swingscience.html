@@ -20,7 +20,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/clean-blog.css" rel="stylesheet">
 
   <link href="css/google-translate.css" rel="stylesheet">
 </head>
@@ -29,13 +29,13 @@
 
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="../index.html"><img alt="TennisKeeper" src="../img/logo.png"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
+         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">  
           <li class="nav-item">
@@ -71,9 +71,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
             <h1>Turn your Apple Watch into a swing sensor</h1>
-        
-
-            <span class="meta">Learn the science behind your swing motion</span>
+            <span class="meta">Learn the science behind your swing motion </span>
           </div>
         </div>
       </div>
@@ -94,7 +92,7 @@
             
           
           <h2 class="section-heading">How is a swing detected?</h2>
-          <p>Your Apple Watch provides motion updates at a 50 hertz cadence. For a swing to be detected and classified, it must meet the minimum swing speed and rotation angles within the second. If you make a swing and you think it was not counted, or counted incorrectly, it is likely your acceleration is too slow, or wrist rotation (i.e. your swing path) is too short within the 50 Hz window. In that case, you can calibrate your swings settings in TennisKeeper and set your own minimum values. See the <a href="swingcalibration.html">Swing Calibration</a> article for more information.
+          <p>Your Apple Watch provides motion updates at a 50 hertz cadence. For a swing to be detected and classified, it must meet the minimum swing speed and rotation angles within the second. If you make a swing and you think it was not counted, or counted incorrectly, it is likely your acceleration is too slow, or your wrist rotation (i.e. your swing path) is too short within the 50 Hz window. In that case, you can calibrate your swings settings in TennisKeeper and set your own minimum values. See the <a href="swingcalibration.html">Swing Calibration</a> article for more information.
           </p>
           <hr>
         
@@ -157,15 +155,17 @@
             <p>
               This measures the orientation (aka Euler angles) of the Watch using the <i>attitude</i> property. It is used to assist in the classification of
               a swing that may be a serve, an overhead or even a high swinging volley. In TennisKeeper, they are collectively refer to as a <i>Smash</i>. A swing is classifed as a <i>Smash</i> if one of the following criteria is met:
+            </p>
               <ul>
                 <li>If the tilt angle is bigger than the default (i.e. 190.79&#176;)</li>
                 <li>If there is a rapid hand rising</li>
               </ul>
               
-              The easiest way to see if there is a rapid hand rising is to look at TennisKeeper's <i>3D Swing Path</i> and the 
+              <p>The easiest way to see if there is a rapid hand rising is to look at TennisKeeper's <i>3D Swing Path</i> and the 
               <i>2D Time Sequence</i> graph view. Both views rendered the <i>Rotation</i> data in a graph so that you can understand 
               your wrist motion.
-            </p>  
+              </p>
+
             <hr>
             <!--
             <p>So check your forehand volleys to see if it is because you made a big tilt, or if you have a rapid hand rising. 
@@ -213,22 +213,24 @@
                <a href="#"><img class="img-fluid" src="img/swing_2dshots.jpg" alt=""></a>
                 <span class="caption text-muted">Forehand vs Backhand Rotation for a Right-Handed Player</span>
             </ul>
-            
+            <br>
             <hr>
 
-            <p>Analyze each swing shot with TennisKeeper and Apple Watch. 
+            <p>Analyze each swing shot with TennisKeeper and Apple Watch.</p>
             <blockquote class="blockquote">
              While TennisKeeper may not accurately classify all your swings shots, it provides a base line for you to analyze them
              in a consistent way. 
             </blockquote>
+            <p>
               For each swing, see how you hit the ball. Do you have a clean contact? Is your swing smooth or jittery? Drill into your game patterns and see how your swing speed evolve over time.
-          </p>
+            </p>
+            
         </div>
       </div>
     </div>
   </article>
 
-  <hr>
+ 
 
   <!-- Footer -->
   <footer>
