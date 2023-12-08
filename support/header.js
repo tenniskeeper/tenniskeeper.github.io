@@ -35,6 +35,7 @@ hdrtemplate.innerHTML = `
               <a class="dropdown-item lang-en    lang-select" data-lang="fr"    href="#googtrans(en|fr)">French</a>
               <a class="dropdown-item lang-en    lang-select" data-lang="pt"    href="#googtrans(en|pt)">Portuguese</a>
               <a class="dropdown-item lang-en    lang-select" data-lang="es"    href="#googtrans(en|es)">Spanish</a>
+              <a class="dropdown-item lang-en    lang-select" data-lang="es"    href="#googtrans(en|sv)">Swedish</a>
               <a class="dropdown-item lang-en    lang-select" data-lang="ko"    href="#googtrans(en|ko)">Korean</a>
               <a class="dropdown-item lang-en    lang-select" data-lang="zh-CN" href="#googtrans(en|zh-TW)">Chinese</a>
               <a class="dropdown-item lang-en    lang-select" data-lang="ru"    href="#googtrans(en|ru)">Russian</a>
