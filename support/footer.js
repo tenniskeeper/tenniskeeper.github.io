@@ -36,7 +36,7 @@ template.innerHTML = `
     
       <div class="row">
         <div class="col-md1">
-            &copy; TennisKeeper 2023. All Rights Reserved
+            &copy; TennisKeeper 2024. All Rights Reserved
         </div>  
         <div class="col-md-1">
           <a href="../privacy.html">Privacy</a>
